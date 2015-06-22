@@ -53,7 +53,7 @@ footer{
 /*---------- TABLET ----------*/
 /* Change the colors below */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   header{
     background-color:#666;
   }
@@ -70,16 +70,12 @@ footer{
   footer{
     background-color:#666;
   }
-  .col-3{
-    width:100%;
-  }
-  
 }
 
 
-/*---------- PHONES ----------*/
+/*---------- MONITORS ----------*/
 
-@media (max-width: 400px) {
+@media (min-width: 1200px) {
   header{
     background-color:#000;
   }
@@ -95,8 +91,4 @@ footer{
   footer{
     background-color:#000;
   }
-  .col-3{
-    width:100%;
-  }
-
 }
