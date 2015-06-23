@@ -1,0 +1,45 @@
+body {}
+
+/* Universal classes*/
+
+.btn {}
+h1 {}
+h2 {}
+h3 {}
+p {}
+
+/* Header */
+
+header {}
+#logo {}
+nav {}
+nav ul {}
+nav ul li {}
+
+/* Wrapper */
+
+.wrapper {}
+
+/* Featured News Item */
+
+.top-review {}
+.top-review img {}
+
+/* Side Bar */
+
+.sidebar {}
+.newsletter {}
+.upcoming {}
+.faq {}
+
+/* News Feed Section */
+
+.news-feed {}
+.nf-item {}
+.nf-type {}
+.nf-image {}
+
+/* Footer */
+
+footer {}
+#footer-logo {}
