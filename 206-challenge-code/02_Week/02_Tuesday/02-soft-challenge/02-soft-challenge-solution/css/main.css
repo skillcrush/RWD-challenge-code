@@ -120,7 +120,7 @@ nav ul li {}
 .top-review img {}
 
 /* Side Bar */
- aside{}
+/* aside{} - should we use this instead of the class*/
 .sidebar {}
 .newsletter {}
 .upcoming {}
