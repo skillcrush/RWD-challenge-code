@@ -97,10 +97,10 @@ textarea {
 
 .btn {}
 h1, h2, h3{}
-h1 {}
+h1 {width: 100%;}
 h2 {}
 h3 {}
-p {}
+p {width: 100%;}
 
 /* Header */
 
@@ -116,22 +116,23 @@ nav ul li {}
 
 /* Featured News Item */
 
-.top-review {}
-.top-review img {}
+.top-review {width: 100%;}
+.top-review img {width: 100%;}
 
 /* Side Bar */
  aside{}
-.sidebar {}
-.newsletter {}
-.upcoming {}
-.faq {}
+.sidebar {width: 100%;}
+.newsletter {width: 100%;}
+.upcoming {width: 100%;}
+.faq {width: 100%;}
 
 /* News Feed Section */
 
-.news-feed {}
-.nf-item {}
-.nf-type {}
-.nf-image {}
+.news-feed {width: 100%;}
+.nf-item {width: 100%;}
+.nf-type {width: 25%;}
+.nf-image {width: 50%;}
+
 
 /* Footer */
 
