@@ -3,6 +3,7 @@ body {}
 /* Universal classes*/
 
 .btn {}
+h1, h2, h3{}
 h1 {}
 h2 {}
 h3 {}
@@ -26,7 +27,7 @@ nav ul li {}
 .top-review img {}
 
 /* Side Bar */
-
+ aside{}
 .sidebar {}
 .newsletter {}
 .upcoming {}
