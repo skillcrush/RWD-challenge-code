@@ -29,14 +29,14 @@ header{
   height:320px;
   float:left;
 }
-.color-1{
+.column-1 {
   background:#d5d5d5;
 }
-.color-2{
-  background:#c4c4c4;
+.column-2 {
+  background:#d5d5d5;
 }
-.color-3{
-  background:#b7b7b7;
+.column-3 {
+  background:#d5d5d5;
 }
 
 
@@ -51,20 +51,20 @@ footer{
 
 
 /*---------- TABLET ----------*/
-/* Change the colors below */
+/* Change the background colors below */
 
 @media (max-width: 768px) {
   header{
     background-color: ;
   }
 
-  .color-1{
+  .column-1{
     background-color: ;
   }
-  .color-2{
+  .column-2{
     background-color: ;
   }
-  .color-3{
+  .column-3{
     background-color: ;
   }
   footer{
@@ -81,13 +81,13 @@ footer{
     background-color: ;
   }
 
-  .color-1{
+  .column-1{
     background-color: ;
   }
-  .color-2{
+  .column-2{
     background-color: ;
   }
-  .color-3{
+  .column-3{
     background-color: ;
   }
   footer{
