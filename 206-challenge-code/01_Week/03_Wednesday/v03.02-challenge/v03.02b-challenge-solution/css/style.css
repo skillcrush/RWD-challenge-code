@@ -25,17 +25,17 @@ header{
 /*---------- CONTENT AREA ----------*/
 
 .col-3{
-  width:33.3%;
+  width:100%;
   height:320px;
   float:left;
 }
-.color-1{
+#column-1{
   background:#d5d5d5;
 }
-.color-2{
+#column-2{
   background:#c4c4c4;
 }
-.color-3{
+#column-3{
   background:#b7b7b7;
 }
 
@@ -48,8 +48,6 @@ footer{
   background:#e3e3e3;
 }
 
-
-
 /*---------- TABLET ----------*/
 /* Change the colors below */
 
@@ -57,38 +55,42 @@ footer{
   header{
     background-color:#666;
   }
-
-  .color-1{
+  #column-1{
     background-color:#e3e3e3;
   }
-  .color-2{
+  #column-2{
     background-color:#CCC;
   }
-  .color-3{
+  #column-3{
     background-color:#999;
   }
   footer{
     background-color:#666;
+  }
+  .col-3{
+    width:50%;
   }
 }
 
 
-/*---------- MONITORS ----------*/
-
+/*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header{
     background-color:#000;
   }
-  .color-1{
+  #column-1{
     background-color:#999;
   }
-  .color-2{
+  #column-2{
     background-color:#666;
   }
-  .color-3{
+  #column-3{
     background-color:#333;
   }
   footer{
     background-color:#000;
+  }
+  .col-3{
+    width:33.3%;
   }
 }
