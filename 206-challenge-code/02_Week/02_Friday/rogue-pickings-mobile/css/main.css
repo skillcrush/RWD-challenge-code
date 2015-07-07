@@ -1,0 +1,60 @@
+body {max-width: 1200px; margin: 0 auto; font-family: Montserrat, Helvetica, Arial, sans-serif;}
+h1, h3, h4 {text-transform: uppercase; font-size: 21px;}
+h1 {color: black; font-size: 30px; text-align: center; padding: 15px 0; border-bottom:3px solid #77a466;}
+h3 {color: black; font-size: 18px; text-align: center; padding: 15px;}
+h4 {color: black; font-size: 12px;}
+.main-title h3 {text-align: left; padding: 5px 0px; text-transform: uppercase; color:#77a466; }
+p {line-height: 21px; font-size: 14px;}
+
+/*The widths are in a percentage!*/
+header {width: 90%; height: auto; margin: 0 auto;}
+header span {color: #77a466;}
+header nav a {display:block; width:100%; text-decoration: none; text-align: center; text-transform: uppercase; font-weight: bold; font-size: 14px; padding: 10px 0px; color:#77a466;}
+
+/*The widths are in a percentage!*/
+.top-section, .bottom-section {width: 90%; margin: 0 auto; clear: both;}
+.main-image {width: 100%; height: auto; float: left; margin-top: 15px;}
+.main-image img {width: 100%; border-top:3px solid #77a466; border-bottom:3px solid #77a466;}
+.main-title {width: 100%; height: auto; float: left;}
+.main-title p {padding: 0px; line-height: 25px; font-size: 16px;}
+.section-one, .section-two, .section-three {width: 100%; height: auto; float: left; border-top: 1px solid #eee;}
+.section-one h4 {padding: 10px 0px;}
+.section-two h4, .section-three h4 {padding: 10px 0px;}
+.menu {list-style: none; padding: 0px;}
+.menu li {padding: 10px 0; color:#77a466;}
+.reviews {color: #333; line-height: 21px; font-size: 16px;}
+.address {font-size: 16px; line-height: 24px;}
+
+/*The widths are in a percentage!*/
+footer {width: 100%; height: 50px; border-top:3px solid #eee; margin: 0 auto; clear: both; text-align: center;}
+footer span {font-family: "Wisdom Script", script; text-transform: lowercase; color: #77a466; font-size: 14px;}
+
+
+/* ==== MEDIA QUERIES ==== */
+
+@media all and (min-width:786px) {
+
+}
+
+@media all and (min-width:940px) {
+
+	h1 {text-align: left; float: left; padding: 15px 0;}
+	p {padding: 0px 30px; }
+	h1 {text-align: left; padding: 15px 0; border-bottom:none;}
+
+	header {width:100%; height: 110px; margin: 0 auto;}
+	header nav {float: right; padding: 45px 0px;}
+	header nav a {display:inline;font-weight: bold; font-size: 14px; padding: 0 10px;}
+
+	/*The widths are in a percentage!*/
+	.top-section, .bottom-section {width: 100%; margin: 0 auto; clear: both;}
+	.main-image {width: 100%; height: auto; float: left;}
+	.main-image img {width: 100%;}
+	.main-title {width: 100%; height: auto; float: left;}
+	.main-title p {padding: 0px;}
+	.section-one, .section-two, .section-three {width: 33%; height: auto; float: left; }
+	.section-one, .section-two {border-right: 1px solid #eee;}
+	.section-one h4 {padding: 10px 0px;}
+	.section-two h4, .section-three h4 {padding: 10px 30px;}
+
+}
