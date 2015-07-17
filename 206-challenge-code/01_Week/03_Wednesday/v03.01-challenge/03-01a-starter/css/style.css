@@ -29,13 +29,13 @@ header{
   height:320px;
   float:left;
 }
-.column-1 {
+#column-1 {
   background:#d5d5d5;
 }
-.column-2 {
+#column-2 {
   background:#d5d5d5;
 }
-.column-3 {
+#column-3 {
   background:#d5d5d5;
 }
 
