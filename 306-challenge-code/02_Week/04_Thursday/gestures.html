@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(document).on("pageinit",function(event){
+  $(".touch").on("tap",function(event){
+    $(".text").html("<span>Tapped!</span>").css({"background":"","font-size":"500%","text-align":"center"});                 
+  });
+  $(".touch").on("swipeleft",function(event){
+    $(".text").html("<span>Swiped Left!</span>").css({"color":"purple","font-size":"500%","text-align":"center"});               
+  });  
+  $(".touch").on("swiperight",function(event){
+    $(".text").html("<span>Swiped Right!</span>").css({"color":"green","font-size":"500%","text-align":"center"});                     
+  }); 
+  
+
+  $(".character-container").on("tap",function(event){
+    $( ".character" ).toggleClass("jump");
+  });
+
+  $(".character-container").on("swipeleft",function(event){
+    $( ".character" ).toggleClass("walk-left");
+  });  
+  $(".character-container").on("swiperight",function(event){
+    $( ".character" ).toggleClass("walk-right");               
+  }); 
+
+});
+</script>
+<style>
+div
+{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+</style>
+</head>
+<body>
+
+<div data-role="page" data-theme="d">
+  <div data-role="main" class="ui-content">
+
+    <div class="character-container">
+      <div class="character"></div>
+    </div><!-- character -->
+
+  </div>
+</div> 
+
+</body>
+</html>
