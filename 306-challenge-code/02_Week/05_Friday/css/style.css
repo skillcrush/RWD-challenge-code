@@ -1,0 +1,42 @@
+body, html{
+	margin:0px;
+	background: #409ca0;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size:16px;
+}
+p.shrug{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+}
+#main-container{
+	width: 80%;
+	max-width:600px;
+	margin:auto;
+	padding-top:100px;
+}
+button {
+	background: #fff;
+    border: none;
+    color: #409ca0;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    max-width: 350px;
+    font-size: 1.5em;
+    padding: 14px;
+}
+	button:hover{
+		background-color:#E6E6E6;
+	}
+#location{
+	font-weight:400;
+}
+
+@media (min-width:768px) {
+	
+}
+
+@media (min-width:940px) {
+	
+}

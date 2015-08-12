@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geolocation</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="main-container">
+	<p class="shrug">&macr;\_(&#12484;)_/&macr;</p>
+	<h1>ARE YOU LOST??</h1>
+	<button onclick="getLocation()">Find out where you are!</button>
+    <h2 id="location"></h2>
+</div>
+
+<script>
+	var x = document.getElementById("location");
+	
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition);
+		} else { 
+			x.innerHTML = "Geolocation is not supported by this browser.";
+		}
+	}
+	
+	function showPosition(position) {
+		x.innerHTML = "Latitude: " + position.coords.latitude + 
+		"<br>Longitude: " + position.coords.longitude;	
+	}
+</script>
+
+</body>
+</html>
