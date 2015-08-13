@@ -1,11 +1,18 @@
-body, html{
+body{
 	margin:0px;
-	background: #409ca0;
+	background: url('../img/bkgd.jpg');
+	background-repeat: cover;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
-	font-size:16px;
 }
+header {
+	width: 100%;
+	color: #222;
+	height: auto;
+	font-size:36px;
+}
+
 p.shrug{
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1.5em;
@@ -14,23 +21,27 @@ p.shrug{
 	width: 80%;
 	max-width:600px;
 	margin:auto;
-	padding-top:100px;
+	padding-top:50px;
 }
 button {
-	background: #fff;
-    border: none;
-    color: #409ca0;
+	background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid #222;
+    color: #222;
     font-family: 'Montserrat', sans-serif;
-    width: 80%;
-    max-width: 350px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 600px;
     font-size: 1.5em;
     padding: 14px;
 }
 	button:hover{
-		background-color:#E6E6E6;
+		border: 3px solid #f16059;
+		color: #f16059;
+		background-color: rgba(255, 255, 255, 0);
 	}
 #location{
 	font-weight:400;
+	color: #222;
 }
 
 @media (min-width:768px) {
