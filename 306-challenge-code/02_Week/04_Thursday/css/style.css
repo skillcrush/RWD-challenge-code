@@ -1,7 +1,9 @@
 body, html{
 
 }
-
+.clear{
+	clear: both;
+}
 .character-container, .character{
 	width:350px;
 	height: 350px;

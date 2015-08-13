@@ -3,23 +3,13 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <link rel="stylesheet" href="css/style.css">
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
 <script>
 $(document).on("pageinit",function(event){
-  $(".touch").on("tap",function(event){
-    $(".text").html("<span>Tapped!</span>").css({"background":"","font-size":"500%","text-align":"center"});                 
-  });
-  $(".touch").on("swipeleft",function(event){
-    $(".text").html("<span>Swiped Left!</span>").css({"color":"purple","font-size":"500%","text-align":"center"});               
-  });  
-  $(".touch").on("swiperight",function(event){
-    $(".text").html("<span>Swiped Right!</span>").css({"color":"green","font-size":"500%","text-align":"center"});                     
-  }); 
-  
-
   $(".character-container").on("tap",function(event){
     $( ".character" ).toggleClass("jump");
   });
@@ -28,7 +18,8 @@ $(document).on("pageinit",function(event){
     $( ".character" ).toggleClass("walk-left");
   });  
   $(".character-container").on("swiperight",function(event){
-    $( ".character" ).toggleClass("walk-right");               
+    $( ".character" ).toggleClass("walk-right");    
+
   }); 
 
 });
@@ -52,7 +43,9 @@ user-select: none;
     <div class="character-container">
       <div class="character"></div>
     </div><!-- character -->
-
+    <div class="clear"></div>
+    <h1>Instructions</h1>
+    <a class="ui-icon-arrow-r ui-btn-icon">Swipe Right</a>
   </div>
 </div> 
 
