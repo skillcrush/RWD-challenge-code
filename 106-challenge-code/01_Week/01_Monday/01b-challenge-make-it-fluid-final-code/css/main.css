@@ -1,0 +1,20 @@
+body {max-width: 1200px; margin: 0 auto;}
+h1, h3, h4 {font-family: Montserrat, Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 21px; padding: 25px;}
+h1 {color: white; font-size: 21px;}
+h3 {color: black; font-size: 16px;}
+h4 {color: black; font-size: 12px; text-align: center;}
+.main-image h4 {color: white;}
+/*Change my width to a percentage!*/
+header {width: 100%; height: 80px; background-color: #f16059; margin: 0 auto;}
+
+/*Change my width to a percentage!*/
+.top-section, .bottom-section {width: 100%; margin: 0 auto;}
+.main-image {width: 66.67%; height: 350px; background-color: #666; float: left;}
+.main-title {width: 33.33%; height: 350px; background-color: #eeeeee;float: right;}
+.section-one, .section-two, .section-three {width: 33.33%; height: 250px; float: left;}
+
+.section-two {background-color: #ccc;}
+.section-one, .section-three {background-color: #ddd;}
+
+/*Change my width to a percentage!*/
+footer {width: 100%; height: 80px; background-color: #eee; margin: 0 auto; clear: both;}

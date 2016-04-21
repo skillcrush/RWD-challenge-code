@@ -1,0 +1,53 @@
+body{
+	margin:0px;
+	background: url('../img/bkgd.jpg');
+	background-repeat: cover;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+header {
+	width: 100%;
+	color: #222;
+	height: auto;
+	font-size:36px;
+}
+
+p.shrug{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+}
+#main-container{
+	width: 80%;
+	max-width:600px;
+	margin:auto;
+	padding-top:50px;
+}
+button {
+	background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid #222;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.5em;
+    padding: 14px;
+}
+	button:hover{
+		border: 3px solid #f16059;
+		color: #f16059;
+		background-color: rgba(255, 255, 255, 0);
+	}
+#location{
+	font-weight:400;
+	color: #222;
+}
+
+@media (min-width:768px) {
+	
+}
+
+@media (min-width:940px) {
+	
+}
